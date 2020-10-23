@@ -5,6 +5,16 @@
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
                          ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
+(require-package 'treemacs)
+(require-package 'find-file-in-project)
+(require-package 'youdao-dictionary)
+(require-package 'editorconfig)
+(require-package 'undo-tree)
+(require-package 'expand-region)
+(require-package 'lsp-mode)
+(require-package 'lsp-ui)
+(require-package 'dap-mode)
+
 (global-set-key "\C-xj" 'treemacs)
 (global-set-key "\M-op" 'find-file-in-project)
 (global-set-key "\M-os" 'youdao-dictionary-search)
@@ -28,6 +38,7 @@
 
 (require 'lsp-mode)
 (require 'lsp-ui)
+(require 'dap-mode)
 (dap-mode 1)
 
 ;; The modes below are optional
