@@ -23,7 +23,7 @@
 (global-set-key "\C-xg" 'magit)
 
 (editorconfig-mode 1)
-(undo-tree-mode 1)
+(global-undo-tree-mode)
 (setq-default fill-column 80)
 (global-display-fill-column-indicator-mode -1)
 
