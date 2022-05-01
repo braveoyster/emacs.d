@@ -101,7 +101,7 @@
 (require 'init-haskell)
 (require 'init-elm)
 (require 'init-purescript)
-(require 'init-ruby)
+;; (require 'init-ruby)
 (require 'init-rails)
 (require 'init-sql)
 (require 'init-ocaml)
@@ -191,3 +191,4 @@
 ;; no-byte-compile: t
 ;; End:
 ;;; init.el ends here
+(put 'set-goal-column 'disabled nil)

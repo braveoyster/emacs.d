@@ -109,8 +109,10 @@
 
 (when (boundp 'display-fill-column-indicator)
   (setq-default indicate-buffer-boundaries 'left)
-  (setq-default display-fill-column-indicator-character ?\u254e)
-  (add-hook 'prog-mode-hook 'display-fill-column-indicator-mode))
+  ;; (setq-default display-fill-column-indicator-character ?\u254e)
+  (setq-default display-fill-column-indicator-character )
+  ;; (add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
+  )
 
 
 
