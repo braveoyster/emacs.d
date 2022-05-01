@@ -54,3 +54,12 @@ site-lisp/package/
 /.lsp-session-v1
 /smex-items
 /eln-cache/
+/.dap-breakpoints
+tutorial/
+.lsp-eslint-choices
+eclipse.jdt.ls/
+jdt-language-server-latest/
+projects
+request/
+rust-playground/
+workspace/
